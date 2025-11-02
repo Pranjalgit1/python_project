@@ -1,17 +1,15 @@
 {
   "categories": {
     "Documents": [
-      ".pdf",
+      
       ".doc",
       ".docx",
       ".txt",
-      ".rtf",
-      ".odt",
-      ".xls",
-      ".xlsx",
+      ".pdf",
       ".ppt",
       ".pptx",
       ".csv"
+
     ],
     "Images": [
       ".jpg",
@@ -19,52 +17,37 @@
       ".png",
       ".gif",
       ".bmp",
-      ".svg",
-      ".ico",
-      ".webp",
-      ".tiff",
-      ".psd"
+      ".webp"
+      
+      
+
     ],
     "Videos": [
       ".mp4",
-      ".avi",
+      
       ".mkv",
-      ".mov",
-      ".wmv",
-      ".flv",
-      ".webm",
-      ".m4v",
-      ".mpeg",
-      ".mpg"
+      ".webm"
+      
+     
+      
     ],
     "Audio": [
-      ".mp3",
-      ".wav",
-      ".flac",
-      ".aac",
-      ".ogg",
-      ".wma",
-      ".m4a",
-      ".opus"
+      ".mp3"
+    
     ],
     "Archives": [
       ".zip",
       ".rar",
-      ".7z",
-      ".tar",
-      ".gz",
-      ".bz2",
-      ".xz",
-      ".iso"
+      ".7z"
+  
     ],
     "Programs": [
       ".exe",
       ".msi",
       ".apk",
-      ".app",
-      ".deb",
-      ".rpm",
-      ".dmg"
+      ".app"
+     
+     
     ],
     "Code": [
       ".py",
@@ -75,24 +58,9 @@
       ".cpp",
       ".c",
       ".h",
-      ".cs",
       ".php",
-      ".rb",
-      ".go",
-      ".rs",
-      ".swift",
-      ".kt",
-      ".ts",
-      ".jsx",
-      ".tsx",
       ".json",
-      ".xml",
-      ".yaml",
-      ".yml",
-      ".sql",
-      ".sh",
-      ".bat",
-      ".ps1"
+      ".xml"
     ]
   },
   "default_folder": "Others"
