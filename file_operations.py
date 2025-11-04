@@ -16,9 +16,25 @@ class FileOperations:
     def get_directory(self):
   
         return self.directory
+    def get_file_preview_list(self):
+        """Get list of files to be organized with their categories"""
+        if not self.directory:
+            return []
+        
+        file_list = []
+        
+        for filename in os.listdir(self.directory):
+            file_path = os.path.join(self.directory, filename)
+            
+            if os.path.isfile(file_path):
+                file_extension = os.path.splitext(filename)[1]
+                category = self.config_manager.ext_to_category(file_extension)
+                file_list.append((file_path, category))
+        
+        return file_list
     
-    def organize_files(self):
-  
+    def organize_files(self, preview=False):
+        """Organize files, optionally with preview"""
         if not self.directory:
             return "Please select a directory first."
         
